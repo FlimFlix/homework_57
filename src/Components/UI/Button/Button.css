@@ -1,0 +1,36 @@
+.btn {
+    display: inline-block;
+    background: transparent;
+    box-shadow: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+
+.btn-danger {
+    background: red;
+    color: white;
+    box-shadow: none;
+    margin: 0 10px;
+}
+
+.btn-warning {
+    background: green;
+    color: white;
+    box-shadow: none;
+}
+
+.btn-danger:hover {
+    background: darkred;
+    color: black;
+}
+
+.btn-warning:hover {
+    background: darkgreen;
+    color: black;
+}
+
+
+
+

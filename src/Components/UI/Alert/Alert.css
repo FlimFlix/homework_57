@@ -1,0 +1,50 @@
+.alert {
+    text-align: left;
+    background-color: white;
+    width: 40%;
+    padding: 20px;
+    left: 30%;
+    top: 40%;
+    transition: all 0.3s;
+    transform: translate(0, -100vh);
+    opacity: 1;
+    border-radius: 8px;
+    margin: 10px 0;
+    border: 1px solid;
+}
+
+.alert-show {
+    transform: translate(50%);
+    opacity: 1;
+}
+
+.danger {
+    background: red;
+    color: black;
+}
+
+.success {
+    background: green;
+    color: black;
+}
+
+.warning {
+    background: #F8F9FA;
+    color: black;
+}
+
+.primary {
+    background: #2D7DF6;
+    color: black;
+}
+.alert-close {
+    border: 1px solid black;
+    opacity: 0.8%;
+    border-radius: 5px;
+    float: right;
+    box-shadow: none;
+}
+
+.alert-close:hover {
+    background: darkred;
+}
